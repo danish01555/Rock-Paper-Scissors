@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+header{
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+h1:hover{
+    color: chartreuse;
+    text-transform: uppercase;
+
+}
+main{
+    border: 5px solid black;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 20px;
+    background-color:rgb(224, 163, 224)
+
+}
+.btn{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 7px solid ;
+    
+}
+.btn:hover{
+    opacity: 0.5;
+    font-weight: 700;
+}
+#stone{
+    background-color: rgb(255, 255, 0);
+}
+#stone:hover{
+    border: 10px solid rgb(255, 0, 0);
+}
+#paper{
+    background-color: aqua;
+}
+#paper:hover{
+    border: 10px solid rgb(0, 255, 0);
+}
+#scissor{
+    background-color: coral;
+}
+#scissor:hover{
+    border: 10px solid blue;
+}
+.score{
+    height: 100px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 50px;
+    font-weight: 700;
+}
+.u{
+    font-size: larger;
+
+}
+.c{
+    font-size: larger;
+}
+.msg-container{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.msg{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: black;
+    font-size: larger;
+    background-color: aquamarine;
+}
